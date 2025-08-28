@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ikopores RM - Página Oficial</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+    body { font-family: 'Poppins', sans-serif; margin: 0; padding: 0; color: #333; background: #f9f9f9; }
+    header { background: #ff0000; color: #fff; padding: 20px; text-align: center; }
+    nav { background: #ff0000; text-align: center; padding: 10px; }
+    nav a { color: #fff; text-decoration: none; margin: 0 15px; font-weight: 600; }
+    nav a:hover { text-decoration: underline; }
+    .container { padding: 40px 20px; }
+    h2 { color: #ff0000; text-align: center; margin-bottom: 20px; }
+    .card-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; }
+    .card { background: #fff; padding: 20px; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); transition: transform 0.3s ease, box-shadow 0.3s ease; }
+    .card:hover { transform: scale(1.05); box-shadow: 0 8px 20px rgba(0,0,0,0.2); }
+    footer { background: #222; color: #fff; text-align: center; padding: 20px; margin-top: 20px; }
+    .cta-extra { background: #ffeaea; padding: 20px; border-radius: 10px; text-align: center; margin-top: 30px; }
+    .cta-extra p { margin: 5px 0; font-size: 18px; }
+    .btn-maps { display: inline-block; margin-top: 15px; padding: 10px 20px; background: #ff0000; color: #fff; border-radius: 5px; text-decoration: none; font-weight: bold; }
+    /* Botón flotante WhatsApp */
+    .whatsapp-float { position: fixed; bottom: 20px; right: 20px; background: #25d366; color: white; border-radius: 50%; width: 60px; height: 60px; display: flex; align-items: center; justify-content: center; font-size: 28px; box-shadow: 0 2px 5px rgba(0,0,0,0.3); z-index: 1000; text-decoration: none; }
+    /* Galería */
+    .gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px; }
+    .gallery img { width: 100%; border-radius: 8px; cursor: pointer; transition: transform 0.3s; }
+    .gallery img:hover { transform: scale(1.05); }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Ikopores RM S.A.S</h1>
+    <p>Fabricación y comercialización de productos en Icopor (EPS)</p>
+  </header>
+
+  <nav>
+    <a href="#nosotros">Quiénes Somos</a>
+    <a href="#productos">Productos</a>
+    <a href="#servicios">Servicios</a>
+    <a href="#galeria">Galería</a>
+    <a href="#ubicacion">Dónde Estamos</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+
+  <div class="container" id="nosotros">
+    <h2>Quiénes Somos</h2>
+    <p>Ikopores RM S.A.S es una empresa colombiana ubicada en Cali, dedicada a la fabricación y venta de productos de icopor (EPS). Nos especializamos en soluciones para construcción, decoración y productos navideños, siempre con calidad y cumplimiento.</p>
+  </div>
+
+  <div class="container" id="productos">
+    <h2>Productos</h2>
+    <div class="card-grid">
+      <div class="card">
+        <h3>Construcción</h3>
+        <p>Casetones, bovedillas y láminas de icopor para aligeramiento de losas y proyectos estructurales. Resistentes, ligeros y económicos.</p>
+      </div>
+      <div class="card">
+        <h3>Decoración & Eventos</h3>
+        <p>Figuras personalizadas, letras, logos y elementos decorativos en icopor, ideales para stands, vitrinas y celebraciones.</p>
+      </div>
+      <div class="card">
+        <h3>Navidad</h3>
+        <p>Bolas, conos, donas, óvalos, letras y neveras de icopor para decoración navideña o eventos especiales. Diseños a medida.</p>
+      </div>
+    </div>
+
+    <div class="cta-extra">
+      <p>¿No encuentras el producto que buscas?</p>
+      <p><b>Pregúntanos, lo fabricamos a tu medida en icopor.</b></p>
+      <a href="https://wa.me/573023706472" target="_blank" class="btn-maps">Preguntar por WhatsApp</a>
+    </div>
+  </div>
+
+  <div class="container" id="servicios">
+    <h2>Servicios</h2>
+    <div class="card-grid">
+      <div class="card">
+        <h3>Instalación en Obra</h3>
+        <p>Contamos con personal especializado para instalación, modulación y desencofrado de casetones en icopor.</p>
+      </div>
+      <div class="card">
+        <h3>Recuperado de Casetones</h3>
+        <p>Servicio de recolección, limpieza y reutilización de casetones para reducir costos y contribuir al medio ambiente.</p>
+      </div>
+      <div class="card">
+        <h3>Casetones Forrados y sin Forrar</h3>
+        <p>Fabricamos casetones adaptados a las necesidades específicas de cada cliente y proyecto.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container" id="galeria">
+    <h2>Galería</h2>
+    <div class="gallery">
+      <img src="assets/foto1.jpg" alt="Foto Ikopores"><img src="assets/foto2.jpg" alt="Foto Ikopores"><img src="assets/foto3.jpg" alt="Foto Ikopores"><img src="assets/foto4.jpg" alt="Foto Ikopores"><img src="assets/foto5.jpg" alt="Foto Ikopores"><img src="assets/foto6.jpg" alt="Foto Ikopores"><img src="assets/foto7.jpg" alt="Foto Ikopores">
+    </div>
+  </div>
+
+  <div class="container" id="ubicacion">
+    <h2>Dónde Estamos</h2>
+    <p><b>Fábrica:</b> Complejo Industrial La Nubia 2, Vía Candelaria, Cali</p>
+    <p><b>Punto de Distribución:</b> Calle 25 #2-40, San Nicolás, Cali</p>
+    <img src="assets/foto1.jpg" alt="Fábrica Ikopores" style="max-width:100%;border-radius:8px;margin-bottom:20px;">
+    <div class="map-container">
+      <iframe src="https://www.google.com/maps/d/embed?mid=1Lq8hRrzqWkRMW-IkoporesMapaEjemplo" width="100%" height="350" style="border:0;" allowfullscreen></iframe>
+    </div>
+    <a class="btn-maps" href="https://www.google.com/maps/dir//Complejo+Industrial+La+Nubia+2,+Cali,+Colombia" target="_blank">Ver en Google Maps</a>
+  </div>
+
+  <div class="container" id="contacto">
+    <h2>Contacto</h2>
+    <p><b>Teléfonos:</b> 302 370 6472 / 320 617 6083</p>
+    <p><b>Email:</b> rmicopores@gmail.com</p>
+    <a class="btn-maps" href="https://wa.me/573023706472" target="_blank">Escríbenos por WhatsApp</a>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Ikopores RM S.A.S - Todos los derechos reservados</p>
+  </footer>
+
+  <a href="https://wa.me/573023706472" class="whatsapp-float" target="_blank">💬</a>
+</body>
+</html>
